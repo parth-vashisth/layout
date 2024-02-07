@@ -41,7 +41,8 @@ section {
     overflow: hidden;
 
 }
-.card:hover .icon{
+
+.card:hover .icon {
     right: 0%;
 }
 
@@ -82,28 +83,33 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
-.icon{
+
+.icon {
     position: absolute;
     top: 50%;
     right: -20%;
     display: flex;
     flex-direction: column;
-transform: translateY(-50%);
-transition: 0.3s;
+    transform: translateY(-50%);
+    transition: 0.3s;
 }
-.icon a{
-text-decoration: none;
+
+.icon a {
+    text-decoration: none;
 }
-.img{
+
+.img {
     position: relative;
 }
-.iconlogo:hover{
-    background:#FF5300;
+
+.iconlogo:hover {
+    background: #FF5300;
 
 }
-.iconlogo:hover svg path{
+
+.iconlogo:hover svg path {
     fill: white;
 }
